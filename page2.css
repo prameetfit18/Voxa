@@ -1,0 +1,49 @@
+*{text-align:center}
+body {
+  background-color:black
+}
+
+.dob-box {
+    width: 90%;
+    max-width: 350px;
+    margin: 50px auto;
+}
+
+.dob-box label {
+    display: white;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+ input {
+    width: 50%;
+    padding: 10px ;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background: #222;
+    color: white;
+    font-size: 25px;
+    outline: none;
+  margin-bottom:30px
+}
+
+.dob-box input:focus {
+    border-color: #4f8cff;
+}
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background: blue;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  margin-bottom:40px
+}
+h2{
+  color:white
+}
